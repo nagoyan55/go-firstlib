@@ -2,11 +2,11 @@ package main
 
 import(
 	"fmt"
-	hogelib "github.com/nagoyan55/go-firstlib"
+	lib "github.com/nagoyan55/go-firstlib/lib"
 )
 
 func main(){
 	fmt.Println("Hello, World")
-	x := hogelib.Add(3, 4)
+	x := lib.Add(3, 4)
 	fmt.Println(x)
 }
